@@ -46,7 +46,7 @@ class Program
             // Pergunta ao usuário se ele deseja continuar
             Console.Write("Quer continuar (S/N)? ");
             cont = Console.ReadLine();
-
+           //Função while  com condição ignorando se o caracter é minusculo ou maiusculo
         } while (cont.Equals("S", StringComparison.OrdinalIgnoreCase));
 
         // Exibe mensagem de encerramento
