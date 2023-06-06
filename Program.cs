@@ -3,7 +3,7 @@
 using System.Globalization;
 class Program
 {
-    static void Main(string[] args)
+   public static void Main(string[] args)
     {
         // Declaração das variáveis
         char op;
