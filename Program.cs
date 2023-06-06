@@ -1,4 +1,5 @@
 ﻿using System;
+//Puxando todas bibliotecas basicas
 
 class Program
 {
