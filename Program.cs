@@ -14,15 +14,15 @@ class Program
         {
             // Solicita ao usuário que digite um operador
             Console.Write("ENTRE COM O OPERADOR: +, -, *, /: ".ToString(CultureInfo.InvariantCulture));
-            op = char.Parse(Console.ReadLine()CultureInfo.InvariantCulture);
+            op = char.Parse(Console.ReadLine());
 
             // Solicita ao usuário que digite o primeiro valor
             Console.Write("ENTRE COM O PRIMEIRO VALOR: ".ToString(CultureInfo.InvariantCulture));
-            num1 = double.Parse(Console.ReadLine()CultureInfo.InvariantCulture);
+            num1 = double.Parse(Console.ReadLine(),CultureInfo.InvariantCulture);
 
             // Solicita ao usuário que digite o segundo valor
             Console.Write("ENTRE COM O SEGUNDO VALOR: ".ToString(CultureInfo.InvariantCulture));
-            num2 = double.Parse(Console.ReadLine()CultureInfo.InvariantCulture);
+            num2 = double.Parse(Console.ReadLine(),CultureInfo.InvariantCulture);
 
             // Executa a operação correspondente ao operador inserido
             switch (op)
