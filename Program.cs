@@ -5,7 +5,7 @@ class Program
 {
    public static void Main(string[] args)
     {
-        // Declaração das variáveis
+        // Declaração das váriaveis
         char op;
         double num1, num2;
         string cont;
